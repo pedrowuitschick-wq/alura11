@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Portfólio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Olá, eu sou Pedro</h1>
+            <p class="subtitle">Desenvolvedor Web & Designer</p>
+            <a href="#projetos" class="btn btn-primary">Ver Meus Projetos</a>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Sou um desenvolvedor web apaixonado por criar experiências digitais incríveis. Com experiência em HTML, CSS, JavaScript e frameworks modernos, estou sempre buscando aprender novas tecnologias.</p>
+                    <p>Meu objetivo é transformar ideias em soluções web funcionais e visualmente atraentes.</p>
+                </div>
+                <div class="skills">
+                    <h3>Minhas Habilidades</h3>
+                    <div class="skill-item">
+                        <span>HTML</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>CSS</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="projects">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=Projeto+1" alt="Projeto 1">
+                    </div>
+                    <h3>E-commerce</h3>
+                    <p>Uma loja online moderna com carrinho de compras e checkout.</p>
+                    <a href="#" class="btn btn-secondary">Ver Projeto</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=Projeto+2" alt="Projeto 2">
+                    </div>
+                    <h3>Blog Pessoal</h3>
+                    <p>Um blog completo com posts, comentários e categorias.</p>
+                    <a href="#" class="btn btn-secondary">Ver Projeto</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=Projeto+3" alt="Projeto 3">
+                    </div>
+                    <h3>App Tarefas</h3>
+                    <p>Aplicativo para gerenciar tarefas do dia com sincronização.</p>
+                    <a href="#" class="btn btn-secondary">Ver Projeto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu Email" required>
+                <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Pedro Wuitschick. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">GitHub</a>
+                <a href="#" class="social-link">LinkedIn</a>
+                <a href="#" class="social-link">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
